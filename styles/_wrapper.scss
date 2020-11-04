@@ -4,4 +4,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 720px) {
+    font-size: 48%;
+    width: 595px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 38%;
+    width: 595px;
+  }
 }

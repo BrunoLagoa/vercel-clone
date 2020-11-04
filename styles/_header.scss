@@ -59,4 +59,31 @@ header {
       height: 3.2rem;
     }
   }
+
+  html {
+    font-size: 62.5%;
+
+    @media (max-width: 1090px) {
+      font-size: 58%;
+
+      .right .avatar {
+        visibility:hidden;
+      }
+    }
+
+    @media (max-width: 720px) {
+      font-size: 48%;
+      .right .avatar {
+        visibility:hidden;
+      }
+    }
+
+    @media (max-width: 425px) {
+      font-size: 38%;
+
+      .right .avatar {
+        visibility:hidden;
+      }
+    }
+  }
 }
